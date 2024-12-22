@@ -1,12 +1,29 @@
 #include "../headers/transaction_stack.h"
 #include <iostream>
+#include <iomanip>
 
+//geting time
+std::string setDate(){
+    time_t now=time(0);
+    tm* current_time = localtime(&now);
+    int year =  1900 + current_time->tm_year;
+    int month = 1 + current_time->tm_mon;
+    int day = current_time->tm_mday;
+    int hour = current_time->tm_hour;
+    int minute = current_time->tm_min;
+    int second = current_time->tm_sec;
+
+    std::string Date = "Date:  "+std::to_string(year)+"/"+std::to_string(month)+"/"+std::to_string(day);
+    std::string Time = "Time:  "+std::to_string(hour)+":"+std::to_string(minute)+":"+std::to_string(second);
+    
+    return Date+"   "+Time;
+}
 
 stack_node* start = nullptr; // Initialize to nullptr
 
 // Function to create a new transaction and push it onto the stack.
 Transaction* record_transaction(const std::string& type, double amount) {
-    Transaction* newTransaction = new Transaction{type, amount, nullptr};
+    Transaction* newTransaction = new Transaction{type, amount,setDate(), nullptr};
     return newTransaction;
 }
 
@@ -49,9 +66,8 @@ void print_transaction_history(long long acc_number) {
                 return;
             }
             while (transaction != nullptr) {
-                std::cout << "Type: " << transaction->type << "\tAmount: $" << transaction->amount << "\n";
+                std::cout << "Type: " <<std::left<<std::setw(15)<<transaction->type<<"\t|   Amount: $" << transaction->amount << "\t"<< transaction->time << "\n";
                 Transaction* next = transaction->next;
-                delete transaction; // Free memory
                 transaction = next;
             }
             return;
@@ -59,23 +75,4 @@ void print_transaction_history(long long acc_number) {
         current = current->next;
     }
     std::cout << "Account not found.\n";
-}
-
-
-// Function to free all allocated memory.  Crucial to prevent leaks!
-void freeMemory() {
-    stack_node* current = start;
-    stack_node* next;
-    while (current != nullptr) {
-        next = current->next;
-        Transaction* transaction = current->transaction;
-        while (transaction != nullptr) {
-            Transaction* temp = transaction;
-            transaction = transaction->next;
-            delete temp;
-        }
-        delete current;
-        current = next;
-    }
-    start = nullptr;
 }

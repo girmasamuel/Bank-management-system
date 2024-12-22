@@ -195,13 +195,13 @@ void BankAccountManagementSystem::displayBalance() {
     std::cin >> accountNumber;
     Node* node=binaryTree.searchNode(accountNumber);
     if (node != NULL) {
-        std::cout<<YELLOW+"--------------------------------------------------\n"+BLUE;
+        std::cout<<YELLOW+"---------------------------------------------------------------------------------------------\n"+BLUE;
         std::cout << "Account Number: " << node->account->accountNumber << std::endl;
         std::cout << "Account Holder: " << node->account->accountHolderName << std::endl;
         std::cout << "Balance: " << node->account->balance << std::endl;
-        std::cout << "Transaction: \n";
+        std::cout << "Transaction history: \n"+GREEN;
         print_transaction_history(accountNumber);
-        std::cout<<YELLOW+"--------------------------------------------------\n"+BLUE;
+        std::cout<<YELLOW+"---------------------------------------------------------------------------------------------\n"+BLUE;
     } else {
         std::cout << "Account not found." << std::endl;
 	}

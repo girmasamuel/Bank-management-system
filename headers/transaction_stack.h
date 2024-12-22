@@ -9,6 +9,7 @@ struct Transaction {
 
     std::string type;
     double amount;
+    std::string time;
     Transaction* next;
 };
 
