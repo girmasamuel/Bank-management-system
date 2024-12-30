@@ -45,20 +45,19 @@ The **Bank Management System** serves as an educational tool to demonstrate core
 2. Navigate to the project directory:
     ```bash
     cd Bank-management-system
-3. create **build** folder in the root directory of project
-4. Navigate to the created build directory
+3. Navigate to build directory
     ```bash
     cd build
 
-5. run
+4. run
     ```bash
     cmake ..
 
-6. create excutable file
+5. create excutable file
     ```bash
     make
 
-7. just finished run the excutable
+6. just finished run the excutable
     ```bash
     ./start_system
 
