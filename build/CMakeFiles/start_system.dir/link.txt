@@ -1,1 +1,1 @@
-/usr/bin/c++ -g CMakeFiles/start_system.dir/main.cpp.o CMakeFiles/start_system.dir/src/graphics.cpp.o CMakeFiles/start_system.dir/src/bank_system.cpp.o CMakeFiles/start_system.dir/src/binary_tree.cpp.o CMakeFiles/start_system.dir/src/transaction_stack.cpp.o -o start_system
+/usr/bin/g++ -g -g CMakeFiles/start_system.dir/main.cpp.o CMakeFiles/start_system.dir/src/graphics.cpp.o CMakeFiles/start_system.dir/src/bank_system.cpp.o CMakeFiles/start_system.dir/src/binary_tree.cpp.o CMakeFiles/start_system.dir/src/transaction_stack.cpp.o -o start_system

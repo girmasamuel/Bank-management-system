@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/home/hacker/latest/github/build",
+  "command": "/usr/bin/g++   -g -g -std=gnu++17 -o CMakeFiles/start_system.dir/main.cpp.o -c /home/hacker/latest/github/main.cpp",
+  "file": "/home/hacker/latest/github/main.cpp",
+  "output": "CMakeFiles/start_system.dir/main.cpp.o"
+},
+{
+  "directory": "/home/hacker/latest/github/build",
+  "command": "/usr/bin/g++   -g -g -std=gnu++17 -o CMakeFiles/start_system.dir/src/graphics.cpp.o -c /home/hacker/latest/github/src/graphics.cpp",
+  "file": "/home/hacker/latest/github/src/graphics.cpp",
+  "output": "CMakeFiles/start_system.dir/src/graphics.cpp.o"
+},
+{
+  "directory": "/home/hacker/latest/github/build",
+  "command": "/usr/bin/g++   -g -g -std=gnu++17 -o CMakeFiles/start_system.dir/src/bank_system.cpp.o -c /home/hacker/latest/github/src/bank_system.cpp",
+  "file": "/home/hacker/latest/github/src/bank_system.cpp",
+  "output": "CMakeFiles/start_system.dir/src/bank_system.cpp.o"
+},
+{
+  "directory": "/home/hacker/latest/github/build",
+  "command": "/usr/bin/g++   -g -g -std=gnu++17 -o CMakeFiles/start_system.dir/src/binary_tree.cpp.o -c /home/hacker/latest/github/src/binary_tree.cpp",
+  "file": "/home/hacker/latest/github/src/binary_tree.cpp",
+  "output": "CMakeFiles/start_system.dir/src/binary_tree.cpp.o"
+},
+{
+  "directory": "/home/hacker/latest/github/build",
+  "command": "/usr/bin/g++   -g -g -std=gnu++17 -o CMakeFiles/start_system.dir/src/transaction_stack.cpp.o -c /home/hacker/latest/github/src/transaction_stack.cpp",
+  "file": "/home/hacker/latest/github/src/transaction_stack.cpp",
+  "output": "CMakeFiles/start_system.dir/src/transaction_stack.cpp.o"
+}
+]

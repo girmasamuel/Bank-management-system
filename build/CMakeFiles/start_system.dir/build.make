@@ -73,71 +73,71 @@ CMakeFiles/start_system.dir/main.cpp.o: CMakeFiles/start_system.dir/flags.make
 CMakeFiles/start_system.dir/main.cpp.o: /home/hacker/latest/github/main.cpp
 CMakeFiles/start_system.dir/main.cpp.o: CMakeFiles/start_system.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hacker/latest/github/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/start_system.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start_system.dir/main.cpp.o -MF CMakeFiles/start_system.dir/main.cpp.o.d -o CMakeFiles/start_system.dir/main.cpp.o -c /home/hacker/latest/github/main.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start_system.dir/main.cpp.o -MF CMakeFiles/start_system.dir/main.cpp.o.d -o CMakeFiles/start_system.dir/main.cpp.o -c /home/hacker/latest/github/main.cpp
 
 CMakeFiles/start_system.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/start_system.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hacker/latest/github/main.cpp > CMakeFiles/start_system.dir/main.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hacker/latest/github/main.cpp > CMakeFiles/start_system.dir/main.cpp.i
 
 CMakeFiles/start_system.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/start_system.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hacker/latest/github/main.cpp -o CMakeFiles/start_system.dir/main.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hacker/latest/github/main.cpp -o CMakeFiles/start_system.dir/main.cpp.s
 
 CMakeFiles/start_system.dir/src/graphics.cpp.o: CMakeFiles/start_system.dir/flags.make
 CMakeFiles/start_system.dir/src/graphics.cpp.o: /home/hacker/latest/github/src/graphics.cpp
 CMakeFiles/start_system.dir/src/graphics.cpp.o: CMakeFiles/start_system.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hacker/latest/github/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/start_system.dir/src/graphics.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start_system.dir/src/graphics.cpp.o -MF CMakeFiles/start_system.dir/src/graphics.cpp.o.d -o CMakeFiles/start_system.dir/src/graphics.cpp.o -c /home/hacker/latest/github/src/graphics.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start_system.dir/src/graphics.cpp.o -MF CMakeFiles/start_system.dir/src/graphics.cpp.o.d -o CMakeFiles/start_system.dir/src/graphics.cpp.o -c /home/hacker/latest/github/src/graphics.cpp
 
 CMakeFiles/start_system.dir/src/graphics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/start_system.dir/src/graphics.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hacker/latest/github/src/graphics.cpp > CMakeFiles/start_system.dir/src/graphics.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hacker/latest/github/src/graphics.cpp > CMakeFiles/start_system.dir/src/graphics.cpp.i
 
 CMakeFiles/start_system.dir/src/graphics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/start_system.dir/src/graphics.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hacker/latest/github/src/graphics.cpp -o CMakeFiles/start_system.dir/src/graphics.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hacker/latest/github/src/graphics.cpp -o CMakeFiles/start_system.dir/src/graphics.cpp.s
 
 CMakeFiles/start_system.dir/src/bank_system.cpp.o: CMakeFiles/start_system.dir/flags.make
 CMakeFiles/start_system.dir/src/bank_system.cpp.o: /home/hacker/latest/github/src/bank_system.cpp
 CMakeFiles/start_system.dir/src/bank_system.cpp.o: CMakeFiles/start_system.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hacker/latest/github/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/start_system.dir/src/bank_system.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start_system.dir/src/bank_system.cpp.o -MF CMakeFiles/start_system.dir/src/bank_system.cpp.o.d -o CMakeFiles/start_system.dir/src/bank_system.cpp.o -c /home/hacker/latest/github/src/bank_system.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start_system.dir/src/bank_system.cpp.o -MF CMakeFiles/start_system.dir/src/bank_system.cpp.o.d -o CMakeFiles/start_system.dir/src/bank_system.cpp.o -c /home/hacker/latest/github/src/bank_system.cpp
 
 CMakeFiles/start_system.dir/src/bank_system.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/start_system.dir/src/bank_system.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hacker/latest/github/src/bank_system.cpp > CMakeFiles/start_system.dir/src/bank_system.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hacker/latest/github/src/bank_system.cpp > CMakeFiles/start_system.dir/src/bank_system.cpp.i
 
 CMakeFiles/start_system.dir/src/bank_system.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/start_system.dir/src/bank_system.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hacker/latest/github/src/bank_system.cpp -o CMakeFiles/start_system.dir/src/bank_system.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hacker/latest/github/src/bank_system.cpp -o CMakeFiles/start_system.dir/src/bank_system.cpp.s
 
 CMakeFiles/start_system.dir/src/binary_tree.cpp.o: CMakeFiles/start_system.dir/flags.make
 CMakeFiles/start_system.dir/src/binary_tree.cpp.o: /home/hacker/latest/github/src/binary_tree.cpp
 CMakeFiles/start_system.dir/src/binary_tree.cpp.o: CMakeFiles/start_system.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hacker/latest/github/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/start_system.dir/src/binary_tree.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start_system.dir/src/binary_tree.cpp.o -MF CMakeFiles/start_system.dir/src/binary_tree.cpp.o.d -o CMakeFiles/start_system.dir/src/binary_tree.cpp.o -c /home/hacker/latest/github/src/binary_tree.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start_system.dir/src/binary_tree.cpp.o -MF CMakeFiles/start_system.dir/src/binary_tree.cpp.o.d -o CMakeFiles/start_system.dir/src/binary_tree.cpp.o -c /home/hacker/latest/github/src/binary_tree.cpp
 
 CMakeFiles/start_system.dir/src/binary_tree.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/start_system.dir/src/binary_tree.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hacker/latest/github/src/binary_tree.cpp > CMakeFiles/start_system.dir/src/binary_tree.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hacker/latest/github/src/binary_tree.cpp > CMakeFiles/start_system.dir/src/binary_tree.cpp.i
 
 CMakeFiles/start_system.dir/src/binary_tree.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/start_system.dir/src/binary_tree.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hacker/latest/github/src/binary_tree.cpp -o CMakeFiles/start_system.dir/src/binary_tree.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hacker/latest/github/src/binary_tree.cpp -o CMakeFiles/start_system.dir/src/binary_tree.cpp.s
 
 CMakeFiles/start_system.dir/src/transaction_stack.cpp.o: CMakeFiles/start_system.dir/flags.make
 CMakeFiles/start_system.dir/src/transaction_stack.cpp.o: /home/hacker/latest/github/src/transaction_stack.cpp
 CMakeFiles/start_system.dir/src/transaction_stack.cpp.o: CMakeFiles/start_system.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/hacker/latest/github/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/start_system.dir/src/transaction_stack.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start_system.dir/src/transaction_stack.cpp.o -MF CMakeFiles/start_system.dir/src/transaction_stack.cpp.o.d -o CMakeFiles/start_system.dir/src/transaction_stack.cpp.o -c /home/hacker/latest/github/src/transaction_stack.cpp
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/start_system.dir/src/transaction_stack.cpp.o -MF CMakeFiles/start_system.dir/src/transaction_stack.cpp.o.d -o CMakeFiles/start_system.dir/src/transaction_stack.cpp.o -c /home/hacker/latest/github/src/transaction_stack.cpp
 
 CMakeFiles/start_system.dir/src/transaction_stack.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/start_system.dir/src/transaction_stack.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hacker/latest/github/src/transaction_stack.cpp > CMakeFiles/start_system.dir/src/transaction_stack.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/hacker/latest/github/src/transaction_stack.cpp > CMakeFiles/start_system.dir/src/transaction_stack.cpp.i
 
 CMakeFiles/start_system.dir/src/transaction_stack.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/start_system.dir/src/transaction_stack.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hacker/latest/github/src/transaction_stack.cpp -o CMakeFiles/start_system.dir/src/transaction_stack.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/hacker/latest/github/src/transaction_stack.cpp -o CMakeFiles/start_system.dir/src/transaction_stack.cpp.s
 
 # Object files for target start_system
 start_system_OBJECTS = \
