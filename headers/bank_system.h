@@ -17,6 +17,7 @@ public:
     void loadAccountsFromFile();
     void saveAccountsToFile();
     void createAccount();
+    void updateAcccount();
     void deposit();
     void withdraw();
     void displayBalance();

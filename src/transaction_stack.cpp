@@ -4,7 +4,7 @@
 
 //geting time
 std::string setDate(){
-    time_t now=time(0);
+    time_t now = time(0);
     tm* current_time = localtime(&now);
     int year =  1900 + current_time->tm_year;
     int month = 1 + current_time->tm_mon;

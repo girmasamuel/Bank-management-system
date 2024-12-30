@@ -1,0 +1,4 @@
+/home/hacker/latest/github/build/CMakeFiles/start_system.dir
+/home/hacker/latest/github/build/CMakeFiles/clean_build.dir
+/home/hacker/latest/github/build/CMakeFiles/edit_cache.dir
+/home/hacker/latest/github/build/CMakeFiles/rebuild_cache.dir

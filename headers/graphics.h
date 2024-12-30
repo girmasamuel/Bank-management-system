@@ -5,6 +5,7 @@ void dash_board();//display dashboard
 void clear_console();//clearing console for easy navigation
 void delay_time(int second);//simulate real time system by delaying excution time
 void navigation_option();
+void display_members();
 
 //colors
 extern string END;

@@ -4,16 +4,15 @@
 #include <string>
 #include "bank_account.h"
 
-//transaction history for each account
+//transaction stack history for each account
 struct Transaction {
-
     std::string type;
     double amount;
     std::string time;
     Transaction* next;
 };
 
-//linked list for stroring each account transaction
+//linked list for stroring each account transaction stack
 struct stack_node{
     long long acc_number;
     Transaction* transaction;
@@ -22,7 +21,6 @@ struct stack_node{
 
 //Transaction* record_transaction(std::string type);
 void print_transaction_history(long long acc_number);
-void freeMemory();
 void append_history(long long acc_number, const std::string& type, double amount);
 
 

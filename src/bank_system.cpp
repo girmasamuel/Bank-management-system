@@ -3,7 +3,7 @@
 #include <fstream>
 #include <string>
 #include <sstream>
-#include <cstdlib>
+//#include <cstdlib>
 #include <iomanip>
 #include <filesystem>
 
@@ -109,7 +109,7 @@ long long generateAccountNumber() {
 
   return nextAccountNumber;
 }
-//................................
+//......................................................................
 
 void BankAccountManagementSystem::createAccount() {
     int accountNumber; 
@@ -138,7 +138,30 @@ void BankAccountManagementSystem::createAccount() {
     std::cout<<YELLOW+"--------------------------------------------------\n"+BLUE;
     
 }
+void BankAccountManagementSystem::updateAcccount() {
+    int accountNumber; 
+    std::string newAccountHolderName;
 
+    std::cout << "Enter Account number: ";
+    std::cin >> accountNumber;
+    Node* node = binaryTree.searchNode(accountNumber);
+    if (node != NULL){
+        std::cout<<YELLOW+"--------------------------------------------------\n"+BLUE;
+        std::cout << "The account holder name is: " << node->account->accountHolderName<<std::endl;
+        std::cout << "Account balance is: "<< node->account->balance<<std::endl;
+
+        std::cout << "Enter new name to modify: ";
+        std::cin.ignore(100,'\n');
+        std::getline(std::cin, newAccountHolderName);
+
+        node->account->accountHolderName = newAccountHolderName;
+
+        std::cout << "Account holder name successfully modified.New name: "<<node->account->accountHolderName <<std::endl;
+        std::cout<<YELLOW+"--------------------------------------------------\n"+BLUE;
+    } else {
+        std::cout << "Account not found.\n";
+    }
+}
 //function to deposit to bank account
 void BankAccountManagementSystem::deposit() {
     int accountNumber;
