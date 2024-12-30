@@ -16,18 +16,6 @@ string YELLOW="\033[33m";
 string BLUE="\033[34m";
 string CYAN="\033[36m";
 
-//diplaing group members
-void display_members(){
-    cout << CYAN+"\nName                   "+RED+"ID number                "+GREEN+"section       "+BLUE+"group\n";
-    cout << CYAN+"---------------------------------------------------------------------\n";
-    cout << CYAN+"Samuel Girma           "+RED+"UGR/35336/16               "+GREEN+"8            "+BLUE+"16\n";
-    cout << CYAN+"Raiko Wakabeka         "+RED+"UGR/35257/16               "+GREEN+"8            "+BLUE+"16\n";
-    cout << CYAN+"Eyuel Mohammed         "+RED+"UGR/34384/16               "+GREEN+"8            "+BLUE+"16\n";
-    cout << CYAN+"Yusra Mohammed         "+RED+"UGR/35744/16               "+GREEN+"8            "+BLUE+"16\n";
-    cout << CYAN+"Nejat Mussa            "+RED+"UGR/35172/16               "+GREEN+"8            "+BLUE+"16\n"+END;
-
-}
-
 //clearing the console command
 void clear_console() {
     #ifdef _WIN32

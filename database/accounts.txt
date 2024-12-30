@@ -1,2 +1,0 @@
-Account Number      Name                          Balance                       
-10001               samuel                        150                           

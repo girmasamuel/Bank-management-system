@@ -21,8 +21,7 @@ int main(){
         cout << RED+"[4]"+BLUE+" Withdraw\n";
         cout << RED+"[5]"+BLUE+" Display Balance\n";
         cout << RED+"[6]"+BLUE+" Remove Account\n";
-        cout << RED+"[7]"+BLUE+" Diplay members\n";
-        cout << RED+"[8]"+BLUE+" Exit\n";
+        cout << RED+"[7]"+BLUE+" Exit\n";
 
         cout << "\nEnter your choice "+RED+"(1-8)"+BLUE+": ";
         cin >> option;
@@ -66,11 +65,6 @@ int main(){
             navigation_option();
         }
         else if(option == '7'){
-            dash_board();
-            display_members();
-            navigation_option();
-        }
-        else if(option == '8'){
             clear_console();
             cout << "Thannk you for choosing us🙏!" << endl;
             cout << "Exiting...😭😭😭" << endl;
